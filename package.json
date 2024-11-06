@@ -1,0 +1,25 @@
+{
+  "name": "fiap-pos-tech-typescript-01",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido como parte do curso de TypeScript da Pós Tech em Desenvolvimento Full Stack da FIAP. Este sistema tem como objetivo fornecer uma API de gerenciamento de livros, com funcionalidades de CRUD (Create, Read, Update, Delete) para que uma aplicação Front-end possa manipular e gerenciar dados de livros.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}
